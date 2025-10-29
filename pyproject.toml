@@ -1,0 +1,21 @@
+[build-system]
+requires = ["flit_core>=3.8,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "calculate_tax_like_tally"
+version = "0.1.0"
+description = "ERPNext Sales Invoice tax calculation matching Tally Prime GST logic"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "K95 FOODS PVT LTD", email = "contact@k95foods.com" }
+]
+license = { file = "license.txt" }
+dependencies = []
+
+[tool.bench]
+app_name = "calculate_tax_like_tally"
+
+[project.entry-points."frappe"]
+calculate_tax_like_tally = "calculate_tax_like_tally"
