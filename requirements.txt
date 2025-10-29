@@ -1,0 +1,4 @@
+# Add Python package dependencies here if needed
+# Example: pandas>=1.5.0
+
+# No external dependencies required for this app
